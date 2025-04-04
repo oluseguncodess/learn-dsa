@@ -7,7 +7,7 @@ function compose(functions: F[]): F {
 
         let accum = x;
         for (let i = functions.length; i > 0; i-- ) {
-            accum = functions[i](accum)
+            accum = functions[i - 1](accum)
         }
          return accum;
     }
