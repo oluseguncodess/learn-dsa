@@ -15,4 +15,4 @@ this is a constant time algorithm whereby as the input size increases, the execu
 this indicates that the algorithm's execution time grows quadratically with the size of input data. 
 
 ## 0(log n) 
-this refers to an algorithm who's runtime grows logarithmically with the size of th input
+this refers to an algorithm who's runtime grows logarithmically with the size of the input
